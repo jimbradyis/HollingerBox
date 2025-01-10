@@ -1,0 +1,14 @@
+﻿<Window x:Class="HollingerBox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button x:Name="BtnInquiry" Content="1) Import Inquiry" Click="BtnInquiry_Click" Margin="5"/>
+            <Button x:Name="BtnCongress" Content="2) Import Congress" Click="BtnCongress_Click" Margin="5"/>
+            <Button x:Name="BtnArchivist" Content="3) Import Archivist" Click="BtnArchivist_Click" Margin="5"/>
+            <Button x:Name="BtnArchive" Content="4) Import Archive" Click="BtnArchive_Click" Margin="5"/>
+            <Button x:Name="BtnDocs" Content="5) Import Docs" Click="BtnDocs_Click" Margin="5"/>
+        </StackPanel>
+    </Grid>
+</Window>
